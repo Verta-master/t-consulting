@@ -7,12 +7,12 @@
   <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-  <section class="promo">
-    <header class="header wrapper">
+  <header class="header">
+    <div class="header__wrap wrapper">
       <div class="logo">
         <img src="img/logo.png" alt="Logo" width="207" height="60">
       </div>
-      <nav class="menu">
+      <nav class="menu menu--closed">
         <button type="button" class="menu__btn"></button>
         <ul class="menu__list">
           <li class="menu__item">
@@ -29,8 +29,10 @@
           </li>
         </ul>
       </nav>
-    </header>
-    
+    </div>
+  </header>
+
+  <section class="promo">
     <div class="promo__block wrapper">
       <img class="promo__name" src="img/Fio.svg" alt="Татьяна Шубенкова" width="335" height="160">
       <h1>Экологичное консультирование</h1>
@@ -108,7 +110,7 @@
       </div>
     </section>
     
-    <section class="value">
+    <section class="value" id="value">
       <figure class="value__img">
         <img src="img/bird.png" alt="Мои ценности" width="1064" height="528">
       </figure>
@@ -164,5 +166,6 @@
   
   <script src="js/jquery-3.2.1.min.js"></script>
   <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
