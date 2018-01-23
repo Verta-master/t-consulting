@@ -1,38 +1,59 @@
 .promo {
-  padding-bottom: 160px;
+  padding-bottom: 140px;
   background-image: url(../img/bg-promo.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
+.promo__name {
+  margin-left: 10px;
+}
+
 .promo__link {
   display: block;
   color: @title;
   font-weight: 700;
-  font-size: 20px;
-  margin-bottom: 15px;
-  padding-left: 98px;
+  font-size: 16px;
+  margin-bottom: 5px;
+  padding-left: 158px;
   position: relative;
+  
+  &:hover,
+  &:active {
+    opacity: 0.8;
+    transition: ease-out 0.3s;
+  }
   
   &::before {
     content: "";
     position: absolute;
     top: 2px;
-    left: 60px;
+    left: 120px;
     background-repeat: no-repeat;
   }
   
-  &--phone::before {
-    width: 23px;
-    height: 23px;
-    background-image: url(../img/icon-phone.png);
+  &--phone {
+    font-family: "Arial", sans-serif;
+    
+    &::before {
+      width: 23px;
+      height: 23px;
+      background-image: url(../img/icon-phone.png);
+    }
   }
   
-  &--mail::before {
-    width: 26px;
-    height: 19px;
-    top: 4px;
-    background-image: url(../img/icon-mail.png);
+  &--mail {
+    &::before {
+      width: 26px;
+      height: 19px;
+      top: 4px;
+      background-image: url(../img/icon-mail.png);
+    }
+    
+    &:hover,
+    &:active {
+      text-decoration: underline;
+    }
   }
 }

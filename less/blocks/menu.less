@@ -1,3 +1,7 @@
+.menu {
+  padding-top: 10px;
+}
+
 .menu__btn {
   display: none;
 }
@@ -8,14 +12,15 @@
   align-items: center;
 }
 
-.menu__list {
-  margin-left: 20px;
+.menu__item {
+  margin-left: 17px;
 }
 
 .menu__link {
   padding: 10px 15px;
   font-size: 20px;
   color: #2a363f;
+  transition: ease-out 0.3s;
   
   &:hover,
   &:active,
@@ -24,5 +29,6 @@
     min-height: 43px;
     border-radius: 30px;
     background-color: rgb(255, 255, 255);
+    transition: ease-out 0.3s;
   }
 }
