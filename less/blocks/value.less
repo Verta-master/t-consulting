@@ -1,10 +1,15 @@
 .value {
   padding-top: 35px;
+  padding-bottom: 60px;
   position: relative;
   background-image: url(../img/bg-bird.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  
+  h2::after {
+    background-color: rgb(129, 170, 194);
+  }
 }
 
 .value__img {
@@ -13,4 +18,90 @@
   right: ~"calc(50% + 121px)";
   width: 1064px;
   height: 528px;
+}
+
+.value__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  font-family: "Arial", sans-serif;
+  line-height: 1;
+  
+  li:first-child {
+    font-size: 43px;
+    opacity: 0.61;
+    margin-left: auto;
+    margin-right: 35px;
+  }
+  
+  li:nth-child(2) {
+    font-size: 60px;
+    opacity: 0.49;
+    margin-left: 50px;
+  }
+  
+  li:nth-child(3) {
+    font-size: 53px;
+    opacity: 0.49;
+    margin-left: 450px;
+  }
+  
+  li:nth-child(4) {
+    font-size: 43px;
+    color: #1b3a51;
+    opacity: 0.86;
+    margin-left: auto;
+    margin-right: 30px;
+  }
+  
+  li:nth-child(5) {
+    font-size: 92px;
+    color: #3c78a5;
+    font-weight: 700;
+    margin-left: 250px;
+  }
+  
+  li:nth-child(6) {
+    color: #1b3a51;
+    font-size: 43px;
+    opacity: 0.86;
+    margin-left: 20px;
+  }
+  
+  li:nth-child(7) {
+    font-size: 62px;
+    opacity: 0.86;
+    color: #1b3a51;
+    font-weight: 700;
+    margin-right: 220px;
+    margin-left: auto;
+  }
+  
+  li:nth-child(8) {
+    font-size: 52px;
+    opacity: 0.61;
+    margin-left: 280px;
+  }
+  
+  li:nth-child(9) {
+    opacity: 0.49;
+    font-size: 48px;
+    margin-right: 100px;
+    margin-left: auto;
+  }
+  
+  li:nth-child(10) {
+    font-size: 43px;
+    opacity: 0.86;
+    margin-left: 67px;
+  }
+  
+  li:nth-child(11) {
+    font-size: 43px;
+    opacity: 0.86;
+    margin-right: 265px;
+    margin-left: auto;
+  }
 }
