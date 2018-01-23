@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta  name="viewport" content="width=device-width,initial-scale=1">
-  <title>Title</title>
+  <title>Татьяна Шубенкова</title>
   <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
@@ -32,7 +32,7 @@
     </header>
     
     <div class="promo__block wrapper">
-      <img src="img/name.png" alt="Татьяна Шубенкова" width="351" height="167">
+      <img class="promo__name" src="img/Fio.svg" alt="Татьяна Шубенкова" width="335" height="160">
       <h1>Экологичное консультирование</h1>
       <a href="Tel:+79160940747" class="promo__link promo__link--phone">8 916 094 07 47</a>
       <a href="mailto:tatjana@shubenkova.com" class="promo__link promo__link--mail">tatjana@shubenkova.com</a>
@@ -132,17 +132,24 @@
     
     <section class="gallery wrapper">
       <h2>Я рада вам</h2>
-      <img src="img/slide1.jpg" alt="Я рада вам" width="1024" height="465">
+      <a data-fancybox="gallery-1" href="img/slide1.jpg">
+        <img src="img/slide1.jpg" alt="Я рада вам" width="1024" height="465">
+      </a>
+      <div class="gallery__hidden">
+        <a data-fancybox="gallery-1" href="img/bird.png"></a>
+        <a data-fancybox="gallery-1" href="img/slide1.jpg"></a>
+        <a data-fancybox="gallery-1" href="img/flowers.png"></a>
+      </div>
     </section>
   </main>
   
   <footer class="footer">
-    <div class="wrapper">
+    <div class=" footer__ wrap wrapper">
       <div class="footer__feedback">
         <p>Остались вопросы?</p>
         <button type="button" class="footer__btn">Напишите мне</button>
       </div>
-      <div class="footer__wrap">
+      <div class="footer__bottom">
         <p>Т-Консалтинг © Все права защищены</p>
         <div class="metrics">
           <img src="img/metrics1.jpg" alt="Метрика" width="94" height="33">
@@ -154,5 +161,8 @@
       </div>
     </div>
   </footer>
+  
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
 </body>
 </html>
