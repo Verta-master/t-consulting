@@ -1,0 +1,38 @@
+.promo {
+  padding-bottom: 160px;
+  background-image: url(../img/bg-promo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.promo__link {
+  display: block;
+  color: @title;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 15px;
+  padding-left: 98px;
+  position: relative;
+  
+  &::before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 60px;
+    background-repeat: no-repeat;
+  }
+  
+  &--phone::before {
+    width: 23px;
+    height: 23px;
+    background-image: url(../img/icon-phone.png);
+  }
+  
+  &--mail::before {
+    width: 26px;
+    height: 19px;
+    top: 4px;
+    background-image: url(../img/icon-mail.png);
+  }
+}
