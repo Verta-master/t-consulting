@@ -47,9 +47,11 @@
       <div class="about__video">
         <img src="img/video.jpg" alt="Video block" width="584" height="424">
       </div>
-      <p><span>Привет, я Татьяна Шубенкова</span></p>
-      <p>Я профессионально занимаюсь трансформационными тренингами с хххх года. Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.</p>
-      <p>Я профессионально занимаюсь трансформационными тренингами с хххх года. Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.</p>
+      <div class="about__text wow fadeInUp" data-wow-offset="150">
+        <p><span>Привет, я Татьяна Шубенкова</span></p>
+        <p>Я профессионально занимаюсь трансформационными тренингами с хххх года. Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.</p>
+        <p>Я профессионально занимаюсь трансформационными тренингами с хххх года. Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.</p>
+      </div>
     </section>
     
     <section class="what" id="what">
@@ -80,7 +82,7 @@
         </ul>
         <p>Это происходит легко, светло и результативно.</p>
       </div>
-      <figure class="what__img">
+      <figure class="what__img wow slideInRight" data-wow-offset="400">
         <img src="img/flowers.png" alt="Что я делаю" width="1056" height="849">
       </figure>
     </section>
@@ -88,7 +90,7 @@
     <section class="for wrapper" id="for">
       <h2>Для кого</h2>
       <div class="for__block">
-        <div class="for__text">
+        <div class="for__text wow fadeInUp" data-wow-offset="150">
           <p>Руководитель организации, который заказывает диагностику компании, обучение, тренинги на развитие топ-менеджмента и команды. Его основная ценность – это люди, их потребности, мотивация и благосостояние. Главная задача  в управлении персоналом – мотивирование и вдохновение людей на выполнение амбициозных задач.</p>
           <p>В управлении персоналом придерживается высоких духовных ценностей и моральных стандартов. Ему действительно важно, чтобы людям под его руководством было максимально хорошо и гармонично.</p>
           <p>Ориентирован на собственное развитие и развитие своих сотрудников. Хочет создать «команду мечты».</p>
@@ -111,23 +113,23 @@
     </section>
     
     <section class="value" id="value">
-      <figure class="value__img">
+      <figure class="value__img wow slideInLeft" data-wow-offset="400">
         <img src="img/bird.png" alt="Мои ценности" width="1064" height="528">
       </figure>
       <div class="wrapper">
         <h2>Мои ценности</h2>
         <ul class="value__list">
-          <li>Чувствовать</li>
-          <li>Работать</li>
-          <li>Вдохновлять</li>
-          <li>Любить</li>
-          <li>Легко</li>
-          <li>Творить</li>
-          <li>Светло</li>
-          <li>Думать</li>
-          <li>Удивлять</li>
-          <li>Развиваться</li>
-          <li>Отдавать</li>
+          <li class="wow zoomIn">Чувствовать</li>
+          <li class="wow zoomIn">Работать</li>
+          <li class="wow zoomIn">Вдохновлять</li>
+          <li class="wow zoomIn">Любить</li>
+          <li class="wow zoomIn">Легко</li>
+          <li class="wow zoomIn">Творить</li>
+          <li class="wow zoomIn">Светло</li>
+          <li class="wow zoomIn">Думать</li>
+          <li class="wow zoomIn">Удивлять</li>
+          <li class="wow zoomIn">Развиваться</li>
+          <li class="wow zoomIn">Отдавать</li>
         </ul>
       </div>
     </section>
@@ -167,5 +169,10 @@
   <script src="js/jquery-3.2.1.min.js"></script>
   <script src="js/jquery.fancybox.min.js"></script>
   <script src="js/script.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/wow/0.1.12/wow.min.js"></script>
+<!-- Animation -->
+  <script>
+    new WOW().init();
+  </script>
 </body>
 </html>
