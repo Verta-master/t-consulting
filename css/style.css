@@ -595,6 +595,12 @@ h2::after {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  position: relative;
+}
+.promo__blick {
+  position: absolute;
+  top: 50px;
+  left: calc(50% + 150px);
 }
 .promo__name {
   margin-left: 10px;
@@ -2091,6 +2097,7 @@ h2::after {
   .value__list li:nth-child(11) {
     margin: 0;
   }
+  .promo__blick,
   .what__img,
   .value__img {
     display: none;
