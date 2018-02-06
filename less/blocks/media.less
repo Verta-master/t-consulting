@@ -13,14 +13,6 @@
     display: block;
   }
   
-  .what__img {
-    left: 50%;
-  }
-  
-  .value__img {
-    right: 30%;
-  }
-  
   .value__list li:nth-child(2) {
     margin-left: 200px;
     margin-top: 0;
@@ -32,7 +24,7 @@
   .menu__btn {
     display: block;
   }
-  
+    
   .menu--closed {
     .menu__list {
       display: none;
@@ -48,7 +40,7 @@
       position: absolute;
       top: 75px;
       right: 0;
-      width: 160px;
+      width: 250px;
       padding-top: 15px;
       padding-bottom: 1px;
       padding-left: 10px;
@@ -103,16 +95,20 @@
     }
   }
   
-  .what__img {
-    left: 30%;
-    bottom: -100px;
-    width: 656px;
-    height: 527px;
-  }
-  
-  .value__img {
-    width: 656px;
-    height: 325px;
+  .what__list {
+    justify-content: space-between;
+    
+    p {
+      max-width: 100%;
+    }
+    
+    li {
+      width: 23%;
+      
+      &:last-child {
+        width: 30%;
+      }
+    }
   }
 }
 
@@ -120,6 +116,10 @@
   .promo {
     padding-top: 360px;
     background-position: 56% center;
+  }
+  
+  .promo__name {
+    margin-left: 0;
   }
   
   h1 {
@@ -145,24 +145,14 @@
     align-items: center;
     
     li {
+      width: 100%;
       margin-bottom: 20px;
     }
   }
   
-  .for__img {
+  .for__list {
     flex-direction: column;
-    
-    div {
-      width: 100%;
-      height: 160px;
-      margin-bottom: 15px;
-      flex-direction: column;
-      
-      &:nth-child(2),
-      &:nth-child(3) {
-        margin-left: 0;
-      }
-    }
+    align-items: center;
   }
   
   .footer__feedback {
@@ -229,14 +219,26 @@
     padding-bottom: 40px;
   }
   
-  .for__img div:nth-child(3) img,
-  .for__img div:nth-child(2) img,
-  .for__img div:first-child img {
-    margin-top: 0;
-    margin-bottom: 5px;
-  }
-  
   .header {
     padding-top: 10px;
+  }
+  
+  .footer__wrap {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .metrics {
+    padding-right: 0;
+  }
+  
+  .footer__feedback {
+    margin-right: 0;
+  }
+  
+  .footer__contacts p {
+    text-align: center;
+    max-width: none;
   }
 }
