@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta  name="viewport" content="width=device-width,initial-scale=1">
   <title>Татьяна Шубенкова</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" />
   <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
@@ -22,10 +23,13 @@
             <a href="#what" class="menu__link">Что я делаю</a>
           </li>
           <li class="menu__item">
-            <a href="#value" class="menu__link">Ценности</a>
+            <a href="#for" class="menu__link">Для кого</a>
           </li>
           <li class="menu__item">
-            <a href="#for" class="menu__link">Для кого</a>
+            <a href="#value" class="menu__link">Мои ценности</a>
+          </li>
+          <li class="menu__item">
+            <a href="#gallery" class="menu__link">Та самая, которая...</a>
           </li>
         </ul>
       </nav>
@@ -46,77 +50,69 @@
     <section class="about wrapper" id="about">
       <h2>Обо мне</h2>
       <div class="about__video">
-        <img src="img/video.jpg" alt="Video block" width="584" height="424">
+        <img src="img/photo.jpg" alt="Video block" width="584" height="424">
       </div>
       <div class="about__text wow fadeInUp" data-wow-offset="150">
         <p><span>Привет, я Татьяна Шубенкова</span></p>
         <p>Я профессионально занимаюсь трансформационными тренингами с хххх года. Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.</p>
-        <p>Я профессионально занимаюсь трансформационными тренингами с хххх года. Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.</p>
+        <p>Я профессионально занимаюсь трансформационными тренингами с хххх года. Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
       </div>
     </section>
     
-    <section class="what" id="what">
+    <section class="what" id="what" data-paroller-factor="0.3" data-paroller-type="background" data-paroller-direction="vertical">
       <div class="wrapper">
         <h2>Что я делаю</h2>
         <p>Работа по развитию и изменению компании в соответствии с оговоренными задачами. Результатом является решение оговоренных задач и при этом получение радости и удовольствия как в процессе, так и в результате.</p>
         <ul class="what__list">
           <li>
-            <div><img src="img/icon-company.png" alt="Диагностика компании" width="50" height="53"></div>
+            <div><img src="img/icon-company-blue.png" alt="Диагностика компании" width="50" height="53"></div>
             <h3>Диагностика компании</h3>
             <p>Состояние дел в компании. Сильные/ слабые стороны, анализ и совместные выводы</p>
           </li>
           <li>
-            <div><img src="img/icon-couch.png" alt="Коучинг" width="66" height="45"></div>
+            <div><img src="img/icon-couch-blue.png" alt="Коучинг" width="57" height="67"></div>
             <h3>Коучинг</h3>
             <p>Индивидуальная работа с первыми лицами компании и/или с членами топ- команды</p>
           </li>
           <li>
-            <div><img src="img/icon-group.png" alt="Групповые работы" width="66" height="54"></div>
+            <div><img src="img/icon-group-blue.png" alt="Групповые работы" width="83" height="56"></div>
             <h3>Групповые работы</h3>
             <p>Фасилитация и модерация</p>
           </li>
           <li>
-            <div><img src="img/icon-education.png" alt="" width="65" height="46"></div>
+            <div><img src="img/icon-education-blue.png" alt="Трансформационное обучение" width="71" height="49"></div>
             <h3>Трансформационное обучение</h3>
             <p>Описание</p>
           </li>
         </ul>
-        <p>Это происходит легко, светло и результативно.</p>
+        <p class="what__comment">Это происходит легко, светло и результативно.</p>
       </div>
-      <figure class="what__img wow slideInRight" data-wow-offset="400">
-        <img src="img/flowers.png" alt="Что я делаю" width="1056" height="849">
-      </figure>
     </section>
     
     <section class="for wrapper" id="for">
       <h2>Для кого</h2>
-      <div class="for__block">
-        <div class="for__text wow fadeInUp" data-wow-offset="150">
-          <p>Руководитель организации, который заказывает диагностику компании, обучение, тренинги на развитие топ-менеджмента и команды. Его основная ценность – это люди, их потребности, мотивация и благосостояние. Главная задача  в управлении персоналом – мотивирование и вдохновение людей на выполнение амбициозных задач.</p>
-          <p>В управлении персоналом придерживается высоких духовных ценностей и моральных стандартов. Ему действительно важно, чтобы людям под его руководством было максимально хорошо и гармонично.</p>
-          <p>Ориентирован на собственное развитие и развитие своих сотрудников. Хочет создать «команду мечты».</p>
-        </div>
-        <figure class="for__img">
-          <div>
-            <img src="img/icon-company-blue.png" alt="Владельцы компаний" width="50" height="53">
-            <p>Владельцы компаний</p>
-          </div>
-          <div>
-            <img src="img/icon-couch-blue.png" alt="Генеральные директора" width="66" height="45">
-            <p>Генеральные директора</p>
-          </div>
-          <div>
-            <img src="img/icon-group-blue.png" alt="Топ-менеджмент" width="66" height="54">
-            <p>Топ-менеджмент</p>
-          </div>
-        </figure>
+      <ul class="for__list">
+        <li class="for__item">
+          <div><img src="img/icon-1.png" alt="Владельцы компаний" width="67" height="73"></div>
+          <p>Владельцы компаний</p>
+        </li>
+        <li class="for__item">
+          <div><img src="img/icon-2.png" alt="Генеральные директора" width="66" height="55"></div>
+          <p>Генеральные директора</p>
+        </li>
+        <li class="for__item">
+          <div><img src="img/icon-3.png" alt="Топ-менеджмент" width="56" height="66"></div>
+          <p>Топ-менеджмент</p>
+        </li>
+      </ul>
+      <div class="for__text wow fadeInUp" data-wow-offset="150">
+        <p>Руководитель организации, который заказывает диагностику компании, обучение, тренинги на развитие топ-менеджмента и команды. Его основная ценность – это люди, их потребности, мотивация и благосостояние. Главная задача  в управлении персоналом – мотивирование и вдохновение людей на выполнение амбициозных задач.</p>
+        <p>В управлении персоналом придерживается высоких духовных ценностей и моральных стандартов. Ему действительно важно, чтобы людям под его руководством было максимально хорошо и гармонично.</p>
+        <p>Ориентирован на собственное развитие и развитие своих сотрудников. Хочет создать «команду мечты».</p>
       </div>
     </section>
     
-    <section class="value" id="value">
-      <figure class="value__img wow slideInLeft" data-wow-offset="400">
-        <img src="img/bird.png" alt="Мои ценности" width="1064" height="528">
-      </figure>
+    <section class="value" id="value" data-paroller-factor="0.3" data-paroller-type="background" data-paroller-direction="vertical">
       <div class="wrapper">
         <h2>Мои ценности</h2>
         <ul class="value__list">
@@ -135,8 +131,8 @@
       </div>
     </section>
     
-    <section class="gallery wrapper">
-      <h2>Я рада вам</h2>
+    <section class="gallery wrapper" id="gallery">
+      <h2>Та самая, которая...</h2>
       <a data-fancybox="gallery-1" href="img/slide1.jpg">
         <img src="img/slide1.jpg" alt="Я рада вам" width="1024" height="465">
       </a>
@@ -149,20 +145,25 @@
   </main>
   
   <footer class="footer">
-    <div class=" footer__ wrap wrapper">
+    <div class="footer__wrap wrapper">
+      <div class="footer__contacts">
+        <p>Экологичное консультирование</p>
+        <a href="Tel:+79160940747" class="footer__link footer__link--phone">8 916 094 07 47</a>
+        <a href="mailto:tatjana@shubenkova.com" class="footer__link footer__link--mail">tatjana@shubenkova.com</a>
+      </div>
       <div class="footer__feedback">
-        <p>Остались вопросы?</p>
+        <p>Есть вопросы?</p>
         <button type="button" class="footer__btn">Напишите мне</button>
       </div>
-      <div class="footer__bottom">
-        <p>Т-Консалтинг © Все права защищены</p>
-        <div class="metrics">
-          <img src="img/metrics1.jpg" alt="Метрика" width="94" height="33">
-          <img src="img/metrics2.jpg" alt="Метрика" width="94" height="33">
-        </div>
-        <div class="footer__logo">
-          <img src="img/logo.png" alt="Logo" width="116" height="33">
-        </div>
+    </div>
+    <div class="footer__wrap wrapper">
+      <p class="footer__copyright">Т-Консалтинг © Все права защищены</p>
+      <div class="metrics">
+        <img src="img/metrics1.jpg" alt="Метрика" width="94" height="33">
+        <img src="img/metrics2.jpg" alt="Метрика" width="94" height="33">
+      </div>
+      <div class="footer__logo">
+        <img src="img/logo.png" alt="Logo" width="116" height="33">
       </div>
     </div>
   </footer>
